@@ -1,4 +1,4 @@
-# rpi-switch
-💡A smart controller built on raspberry pi.  
-📲Each user can simultaneously switch it through the website, which is connected the server via websocket, or the physical button.  
-[view a example - Smart lighting controller](http://sninjo.com/projects/rpi-switch/)
+# iot-switch · [![iot-switch](https://img.shields.io/badge/project-iot--switch-7597C1)](http://sninjo.com/projects/iot-switch/)
+
+* [RPI version](https://github.com/SNinjo/iot-switch/tree/rpi)
+* [ESP8266 version](https://github.com/SNinjo/iot-switch/tree/esp8266)
