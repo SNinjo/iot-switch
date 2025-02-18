@@ -4,7 +4,7 @@
 const char* ssid = "ssid";
 const char* password = "password";
 const int buttonPin = 0; // D3 and FLASH (GPIO0)
-const int switchPin = 2; // D4 and Built-in LED(GPIO2)
+const int switchPin = 14; // D5 (GPIO14)
 bool switchState = false;
 
 ESP8266WebServer server(80);
@@ -121,7 +121,7 @@ void setup() {
   Serial.println("Connecting to Wi-Fi...");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
+    Serial.print(WiFi.status());
   }
 
   Serial.print("Wi-Fi connected successfully | IP: ");
