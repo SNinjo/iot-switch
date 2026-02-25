@@ -8,8 +8,8 @@ const int switchPin = 14; // D5 (GPIO14)
 bool switchState = false;
 
 ESP8266WebServer server(80);
-IPAddress local_IP(192, 168, 0, 2);
-IPAddress gateway(192, 168, 0, 1);
+IPAddress local_IP(192, 168, 1, 2);
+IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
 
 void handleRoot() {
